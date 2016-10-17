@@ -14,7 +14,7 @@ Simple theme for WordPress projects.
 
 To deploy this theme, SSH into your server (ssh user@server.domain.com and wait for the password prompt).
 Then navigate to the themes directory (wp-content/themes/) and finally clone this repo:
-https://github.com/kilinkis/acme-test.git
+https://github.com/kilinkis/acme.git
 
 And voilá, now you have ACME theme installed and ready to activate. Happy WordPressing!
 

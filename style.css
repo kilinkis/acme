@@ -1,0 +1,296 @@
+/*
+	Theme Name:         acme
+	Theme URI:          https://acme.kilinkis.me/
+	Description:        HTML Responsive Test
+	Version:            1.0
+	Author:             kilinkis
+	Author URI:         https://kilinkis.me/
+	Tags: Blank, HTML5, CSS3
+	GitHub Theme URI: https://github.com/kilinkis/acme
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------*\
+	TYPOGRAPHY
+\*------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Exo:400,700,900);
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+h1, h1 small, h2, h3 {font-family: 'Exo', sans-serif; font-weight: 900;}
+body {font: 14px/20px 'Trebuchet MS', Arial, Helvetica, sans-serif; color: #373737;}
+
+
+/* HEADER + NAVIGATION */
+
+.navbar {background: #fff; margin: 0; height: 75px;}
+.navbar-brand {background: url(img/img_logo.png) no-repeat 50%; height: 55px; width: 200px; margin-top: 5px;}
+.nav > li > a  {display: inline;}
+.nav > li > a:hover {background: none; color: #3c5f89;}
+.navbar-nav {float: right; margin-top: 25px;}
+.navbar-nav li {font-size: 18px; color: #454545; border-left: 1px solid #454545;}
+.navbar-nav li:first-child, .navbar-nav li:last-child {border: none;}
+.navbar-nav li a {font-size: 18px; color: #454545;}
+.navbar-nav li .btn a, .navbar-nav li .btn{margin-left: 10px;}
+
+.navbar-toggle  {background: #3e3e3e; border-radius: 1px;}
+.navbar-toggle span { background: #fff; border: 2px solid #fff; }
+.navbar-collapse {border: none; box-shadow: none;}
+
+.btn a, .btn{color: #fff !important; border-radius: 7px; background: linear-gradient(#36d96c, #2aad55) !important; background: -webkit-linear-gradient(#36d96c, #2aad55) !important; background-color: #30c561 !important; border: 0; transition: opacity .2s linear; line-height: 22px;}
+.btn a:hover, .btn:hover {opacity: .8;}
+.btn a{padding: 0!important;}
+.btn{padding: 7px 15px 8px !important;}
+.navbar-nav li.btn {margin-top: -7px;margin-left: 10px;}
+
+
+/* MAIN CONTENT */
+
+main .container-fluid  {background: linear-gradient(#7190b5, #8eb4e3); background: -webkit-linear-gradient(#7190b5, #8eb4e3); background-color: #88acd9; background-color: #88acd9; padding: 20px 0 45px;}
+
+h1 {text-align: center; color: #fff;}
+h1 small {color: #fff; font-size: 24px; letter-spacing: .5px;}
+h2 {font-size: 36px; color: #82a5d1; margin: 40px 0; text-align: left !important;}
+
+.intro {margin-bottom: 30px; text-align: justify;}
+.intro figure {text-align: center;}
+.intro img {max-width: 100%; height: auto; margin-bottom: 20px;}
+.intro .btn {float: right; font-size: 18px; margin-top: 30px;}
+.intro p {margin-top: 20px;}
+
+
+
+/* TEAM */
+
+.team {padding-bottom: 90px;}
+.team h2 {margin-bottom: 20px;}
+.team h3 {font-size: 36px;}
+.team p {padding-right: 15px;}
+.team .btn-link {float: right; color: #2aae56; font-size: 18px; text-decoration: underline; margin-right: 25px;}
+.team figure {padding-right: 10px; margin-top: 5px;}
+.team figure img, .rounded-avatar img{border-radius: 50%; width: 100%; height: auto;}
+.team .col-xs-4 {padding: 20px 0 0 7px;}
+.team .col-xs-8 {padding: 0 10px;}
+.light-blue{color: #82a5d1;}
+.rounded-avatar img{width: 217px;}
+
+
+/* FOOTER */
+
+
+footer { background: #ccc; color: #666; text-align: center; padding: 10px 0;}
+
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+@media only screen and (min-width:320px) {
+
+}
+
+@media screen and (max-width: 960px) {
+	.intro p {margin-top: 0;}
+}
+
+@media screen and (max-width: 780px) {
+	.navbar {position: fixed; height: 55px; width: 100%; left: 0; top: 0; background: #fff; border-bottom: 1px solid #e5e5e5; z-index: 100;}
+	.navbar-brand {width: 130px; background-size: 100%; margin: -2px 0 0 10px;}
+	.navbar-toggle {margin: 7px 6px 6px;}
+	.navbar-collapse {width: 150px; float: right; border: none; box-shadow: none; background: #3e3e3e; color: #fff; text-align: right; margin-top: 1px;}
+	.navbar-nav {overflow: hidden; padding: 5px 0 15px; margin: 0;}
+	.navbar-nav li {border: none; margin: 10px 0;}
+	.navbar-nav li a, .btn {font: normal 16px/20px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #fff; padding: 0 !important; background: none !important;}
+	.navbar-nav li a:hover {color: #ccc;}
+	main {margin-top: 55px;}
+	h1 small {display: inline-block; margin-top: 25px;}
+	.intro {margin-bottom: 30px;}
+	.intro h2 {text-align: center !important; font-size: 30px;}
+	.intro img {max-width: 80%; margin: 20px auto 30px;}
+	.intro .btn {display: block; float: none; clear: both; margin: 20px auto 0 !important; width: 125px; }
+	.team {padding-bottom: 50px;}
+	.team h2 {padding-left: 15px; font-size: 30px;}
+	.team h3 {font-size: 30px;}
+	.team .member {margin-bottom: 35px;}
+	.team .btn-link {margin-right: 10%;}
+	.navbar-nav li.btn {margin-top: 10px;}
+	.dropdown-menu li, .navbar-nav li{text-align: right;}
+}
+
+@media screen and (max-width: 480px) {
+	main .container-fluid {padding-bottom: 20px;}	
+	h1 {font-size: 22px;}
+	h1 small, h2, h3 {font-size: 16px !important; margin: 20px 0;}
+	.intro {margin-bottom: 50px;}
+	.intro img {max-width: 100%; margin: 0 auto 30px;}
+	.team h2  {margin-bottom: 0;}
+	.team h3 {margin-bottom: 10px;}
+	.team figure {padding: 0 5px;}
+	.team p {padding-right: 0;}
+	.team .btn-link {font-size: 14px;}
+	.team .col-xs-8 p {height: 100px; overflow: hidden; text-overflow: ellipsis;}
+}
+
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+
+::selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-webkit-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-moz-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+
+.alignnone {
+	margin:5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+a img.alignnone {
+	margin:5px 20px 20px 0;
+}
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.wp-caption {
+	background:#FFF;
+	border:1px solid #F0F0F0;
+	max-width:96%;
+	padding:5px 3px 10px;
+	text-align:center;
+}
+.wp-caption.alignnone {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+.wp-caption img {
+	border:0 none;
+	height:auto;
+	margin:0;
+	max-width:98.5%;
+	padding:0;
+	width:auto;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	font-size:11px;
+	line-height:17px;
+	margin:0;
+	padding:0 4px 5px;
+}
+.sticky {
+
+}
+.bypostauthor {
+
+}
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+
+@media print {
+	* {
+		background:transparent !important;
+		color:#000 !important;
+		box-shadow:none !important;
+		text-shadow:none !important;
+	}
+	a,
+	a:visited {
+		text-decoration:underline;
+	}
+	a[href]:after {
+		content:" (" attr(href) ")";
+	}
+	abbr[title]:after {
+		content:" (" attr(title) ")";
+	}
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content:"";
+	}
+	pre,blockquote {
+		border:1px solid #999;
+		page-break-inside:avoid;
+	}
+	thead {
+		display:table-header-group;
+	}
+	tr,img {
+		page-break-inside:avoid;
+	}
+	img {
+		max-width:100% !important;
+	}
+	@page {
+		margin:0.5cm;
+	}
+	p,
+	h2,
+	h3 {
+		orphans:3;
+		widows:3;
+	}
+	h2,
+	h3 {
+		page-break-after:avoid;
+	}
+}

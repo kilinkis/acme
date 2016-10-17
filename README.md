@@ -2,9 +2,9 @@
 
 Simple theme for WordPress projects.
 
-* Project: [github.com/kilinkis/acme-test](https://github.com/kilinkis/acme-test)
+* Project: [github.com/kilinkis/acme](https://github.com/kilinkis/acme)
 * Twitter: [@kilinhead](http://twitter.com/kilinhead)
-* Author : [Juan Manuel Incaurgarat](http://kilinkis.me)\
+* Author : [Juan Manuel Incaurgarat](http://kilinkis.me)
 
 ## Version
 

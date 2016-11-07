@@ -35,7 +35,7 @@ body {font: 14px/20px 'Trebuchet MS', Arial, Helvetica, sans-serif; color: #3737
 .navbar-nav {float: right; margin-top: 25px;}
 .navbar-nav li {font-size: 18px; color: #454545; border-left: 1px solid #454545;}
 .navbar-nav li:first-child, .navbar-nav li:last-child {border: none;}
-.navbar-nav li a {font-size: 18px; color: #d02929;}
+.navbar-nav li a {font-size: 18px; color: #454545;}
 .navbar-nav li .btn a, .navbar-nav li .btn{margin-left: 10px;}
 
 .navbar-toggle  {background: #3e3e3e; border-radius: 1px;}

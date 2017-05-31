@@ -21,9 +21,9 @@ And voilá, now you have ACME theme installed and ready to activate. Happy WordP
 To update it, you will notice that if you repeat the steps above, you get an error saying the directory already exits and it's not empty.
 To work around this there are at least a couple of ways:
 
-Option 1. (Easier and recommended) cd into the acme directory and rund: git pull https://github.com/kilinkis/acme.git
+Option 1. (Easier and recommended) cd into the acme directory and run: git pull https://github.com/kilinkis/acme.git
 
 Option 2. Clone the repo into a new directory (e.g. acme1.1). Now you will see the theme new version in the admin screen, so you can test it (using live preview). If everything went well, you can just activate the new copy of the theme and delete the former.
 
-Option 3. Use Github Updater plugin (https://github.com/afragen/github-updater). This plugin watches the github repo and let you know when there are new versions available, so you update it just like you do with all the other plugins and themes.
+Option 3. Use Github Updater plugin (https://github.com/afragen/github-updater). This plugin watches the github repo and lets you know when there are new versions available, so you update it just like you do with all the other plugins and themes.
 If you are a developer, just remember to update the theme version in the style.css.
